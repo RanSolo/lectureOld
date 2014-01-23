@@ -1,0 +1,20 @@
+@import url(http://fonts.googleapis.com/css?family=Butcherman);
+
+p{
+  font-size: 30px;
+
+}
+
+.cp{
+  font-family: 'Butcherman', cursive;
+}
+
+.alert{
+  background-color: red;
+}
+
+.success{
+  background-color: green;
+}
+
+

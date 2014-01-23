@@ -1,0 +1,223 @@
+
+function square (x){
+return (x*x)
+}
+
+function random (f,i) {
+return f(i);
+
+}
+
+calling afunction inside a funcion recursion CORE TO JAVASCRIPT
+  varz = random (square,3);
+
+Function add(x,y)
+  return x+y;
+
+function sub (x,y){
+  return x-y;
+}
+
+function mul (x,y) {
+return x*y;
+}
+
+here's the trick!this function takes two arguments
+
+funciont math (f,x,y){
+  return f(x,y);
+}
+now calling the add function into var a
+var a = math(add, 3,4);  a ends up being 7
+var b = math(sub, 8,2); a ends up a six
+var c = math(mult, 2,3);
+var d = math(function (x,y){return x/y;} ,30,2); d ends up 15
+
+
+pushing the mult function to math which inturns uses the mul funcion
+to
+var a uses the add function with the arguments 3,40 
+function add 
+
+you can write a function inline see var d
+----------------------------------
+Object:  we want to creat a dog object.
+
+var dog = {}; creates a box with nothing inside it.  now we can add properties
+dog.name = "fido"; dog now has a name inside the box
+dog.age = 3;  now box knows fido is 3
+dog.gender = 'female';
+dog.breed = 'lab';
+fido is a 3 year old bitch lab
+
+console.log(dog.age);  tells you how old the dog is
+delete dog.age;  and now we have no idea how old the dog is
+
+these are dot notations  we can also use square brackets
+dog["home address] = 'backyard 115 sicballs avenue,';
+dog{'age'} = 5;
+now we know fidos age again and where he lives
+----objects can have embeded objects, like say fidos owner
+dog.owner = whatever  won't work, the owner needs to be an object too
+
+could do it how we did the dog or we can add multiple properties at once
+
+dog.owner = {
+name:'bob',
+age: 30,
+gender:'male',
+phone: '111-222-3333'
+}
+"fido" now knows his owner and all his properties because of dog.owner
+
+dog.owner.age is 30
+dog.owner.spouse = {
+name:'suzy'
+age: 28
+phone
+}
+
+var cat={
+}
+cat.name="halle";
+cat.owner=dog.owner.spouse;
+suzy is the cats owner
+
+objects are unordered collection of properties
+__________________________________________________
+Array- is an ordered collection of values
+
+A       B      C        D       E         F
+
+array of letters above
+objects are singular arrays are plural
+
+A       B       C       D       E       F
+0       1       2       3       4       5         
+arrays start numbering at zero and count up
+
+letters[2] == 'c' calling on an array
+dog['age'] == 3  similar ways of calling with objects
+letters[4] == 4
+
+making an array:
+-----------------
+brackets instead of curly braces
+var colors: [];
+makes an array in memory with nothing inside.. colors.length 
+length is a property that asks how many colors are in your array. zero things right now
+colors.push puts the article at the end of the array
+colors.push ('blue', 'green');
+.push ('orange');
+.push ('yellow');
+
+[blue, green, orange, yellow]
+I want to remove yellow
+var x =colors.pop('yellow')
+unshift - puts the colors on the front, 
+shift  pulls it off the front
+concat creates a new array and does not change the originals
+
+arr.every(callback[])
+
+function isBigEnough(element, index, array) {
+  return (element >= 10);}
+
+  var passed = 
+.every  element, index, array
+
+for loop
+for(var i=0; i < colors.length; i++)
+{
+var str = colors[i] + 'is' + colors[i].length + "characters long"
+console.log(str);
+}
+
+
+to go from back to front
+for(var i = colors.length - 1; i => 0; i--);
+
+
+var evens = [];
+
+function cube(x){
+  return x*x*x;}
+function square(x){
+  return x*x;}
+function isEven(x){
+  return x%2===0;}
+for(var i=0; i < 100, i++)
+{
+var value;
+if(isEven(i))
+  value = square(i);
+else
+  value = cube(i);
+nums.push(value);
+}
+
+above cube all odd numbers square all even numbers put 
+
+var num= 0;
+for(var i=0; i< nums.length; i++)
+{
+sum +=num[i];
+
+}
+
+adds all the numbers in the array 
+
+avg of the numbers
+
+sum / num.length
+
+arr.filter
+similar to .every element index 
+filter will let through what you want from the array, i.e. all females over 30
+
+function isBigEnough(element) {
+  return element >=;
+}
+var filtered = [12,5,8,130,44].filter(isBigEnough);
+returns new array instead of true or false
+:1
+:165
+
+
+
+write test driven developement
+TDD
+assert(square(3),__9___, "i am testing the square fn") 
+        ^^        3^^
+      actual    expected
+
+      so know use this to write the function
+
+      function var square(square;
+      {return x*x;
+      }
+
+assert (area(2,3),____6____ "i am testing the area fn")
+
+function area (x,y){
+
+return x*y;}
+  
+  TDD
+assert(sum([3,5,7], 15,  "I am testing the..." )
+        ^^        3^^
+      actual    expected
+
+
+
+function sum (numbers)
+{
+var result=0;
+for(var i=0; i<numbers.length; i++)
+result += numbers [i];
+return result
+}
+now the test will pass
+
+
+

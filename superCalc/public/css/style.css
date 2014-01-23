@@ -1,0 +1,100 @@
+@import url(http://fonts.googleapis.com/css?family=Vast+Shadow);
+ body{
+  background-color: black;
+  padding-top: 50px;
+  margin: auto;
+  font-family: 'Vast Shadow', cursive;
+ }
+
+h1{
+  height: 40px;
+  width: 450px;
+  margin: auto;
+  background-color: #dddddd;
+  font-size: 39px;
+  text-align: center;
+  border: 5px solid;
+  border-style: ridge;
+  font-family: 'Vast Shadow', cursive;
+  padding: 10px 10px 20px 10px;
+}
+#paddy{
+  padding: 10px;
+}
+#contanister{
+  margin: auto;
+  height: 590px;
+  width: 480px;
+  padding: 50px;
+  border: 27px outset;
+  background-color: silver;
+}
+#container{
+  height: 566;
+  width: 422px;
+  margin: auto;
+  border: 15px;
+  border-style: ridge;
+  background-color: black;
+}
+span{
+display: block;
+}
+#keypad{
+  font-family: 'Vast Shadow', cursive;
+  padding: 5px;
+}
+
+#answer{
+  height: 50px;
+  width: 416px;
+  text-align: right;
+  font-size: 55px;
+  display: block;
+  border-bottom: 16px solid;
+  border-style: inset;
+  background-color: lavender;
+  padding-bottom: 10px;
+
+}
+.buttons{
+  height: 70px;
+  font-family: 'Vast Shadow', cursive;
+  width: 70px;
+  border: 6px solid;
+  border-style: outset;
+  border-radius: 25px;
+  background-color: silver;
+  font-size: 27px;
+}
+.operator{
+  background-color: orange;
+  font-size: 25px;
+}
+#sign{
+  background-color: blue;
+}
+#sigma{
+
+}
+#push{
+  background-color: red;
+}
+#clear{
+  background-color:  green;
+}
+#pow{
+  font-size: 20px;
+}
+ul#que{
+  border: 7px solid;
+  border-style: inset;
+  background-color: lavender;
+  height: 333px;
+  width: 57px;
+  list-style: none;
+  float: right;
+  display: block;
+  margin: 8px 8px 0px 0px;
+  font-size: 21px;
+}

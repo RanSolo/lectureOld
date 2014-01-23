@@ -1,0 +1,90 @@
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+@import url(http://fonts-googleapis.com/css?family=Open+Sans:400,300,800);
+body{
+  background-image: url(images/bg-sand.png);
+  background-repeat: url(images/bg-sand.png);
+}
+div#main{
+  width: 960px;
+  margin: 0px auto;
+}
+
+h1{
+  color: #c13832;
+  font-size:  84px;
+  letter-spacing: -0.025em;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  margin: 0px;
+}
+
+h2{
+  text-align: center;
+  font-size:  50px;
+  letter-spacing:0.055em;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: light;
+  margin: 0px;
+  padding-bottom: 20px;
+}
+
+nav a{
+  color: #484848;
+  text-decoration: none;
+  font-size: 14px;
+ font-family: 'Open Sans', sans-serif;
+}
+
+nav a:hover{
+  text-decoration: underline;
+}
+nav li{
+   list-style-type: none;
+  display: inline-block;
+  padding: 13px;
+}
+
+nav ul{
+  float: right; 
+ }
+5
+.clear{
+   clear: both;
+}
+
+#accordian li{
+display: inline-block;
+lst-style-type: none;
+}
+
+#img1{
+  background-color:black;
+  background-repeat: no-repeat;
+  width: 220px;
+  height: 350px;
+  margin; 0px;
+}
+
+#img2{
+  background-color: skyblue;
+  background-repeat: no-repeat;
+  width: 220px;
+  height: 350px;
+  margin: 0px;
+}
+
+#img3{
+  background-color: beige; 
+  background-repeat: no-repeat;
+  width: 220px;
+  height: 350px;
+}
+
+#img4{
+  background-color: skyblue;
+  background-repeat: no-repeat;
+  width: 220px;
+  height: 350px;
+

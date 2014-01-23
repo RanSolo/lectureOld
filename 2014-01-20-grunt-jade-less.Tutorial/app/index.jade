@@ -1,0 +1,32 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    title Jade Tutorial
+    link(rel='stylesheet', href='/css/style.css')
+    script(src='js/vendor/jquery-1.10.2.js')
+    script(src='js/source/main.js')
+  body
+    header
+      h1 Happy MLK Day!
+      img(src='http://moralheroes.org/wp-content/uploads/2011/01/Martin-Luther-King-Jr.jpg')
+    #section
+      ul
+        li a
+        li b
+        li c
+     - var firstName = "Martin";
+     h2= firstName
+     - for(var i = 0; i < 100; i++)
+       h3+ hello
+        h2 world
+
+    #section2
+      h2 section 1
+      p This is paragraph 1
+      p 
+        | This is paragraph 2 <br>
+        br
+        | Addendum <strong>to</strong> paragraph 2
+        span Span 1
+      footer.foot1.foot2#footerid

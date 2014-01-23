@@ -1,0 +1,19 @@
+function add (x,y){
+  return x + y;
+}
+
+function sum (x,y){
+  var total = 0
+  for(var i = 0; i < numbers.length; i++);
+   total =+ numbers[i];
+    return total;
+}
+
+function countEvens(number){
+var counter = 0;
+for(var i = 0; i < numbers.length; i++)
+  if(numbers [i] % 2 ===0)
+    counter++;
+
+return counter;
+}
